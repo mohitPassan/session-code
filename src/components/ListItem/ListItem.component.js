@@ -1,10 +1,11 @@
 import { useState } from "react";
 import "./ListItem.styles.scss";
 
-const ListItem = ({ task }) => {
+const ListItem = ({ task, ...props }) => {
     const [done, setDone] = useState(false);
 
     const handleClick = () => {
+        props.onClick();
         setDone(!done);
     }
 
