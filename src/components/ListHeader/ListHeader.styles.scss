@@ -1,0 +1,18 @@
+.list-header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+    .number-tasks {
+        font-size: 18px;
+        color: #A6A6A6;
+        margin: 0;
+    }
+
+    .list-name {
+        font-size: 36px;
+        margin: 0;
+        color: #434343;
+    }
+}

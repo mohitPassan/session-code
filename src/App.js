@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FeatherIcon from "feather-icons-react/build/FeatherIcon";
+import ListHeader from "./components/ListHeader/ListHeader.component";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className="icon-container">
+                <FeatherIcon className="icon" icon="arrow-left" size={32} />
+                <FeatherIcon className="icon" icon="more-vertical" size={32} />
+            </div>
+            <ListHeader iconName="user" numberOfTasks="7 tasks" listName="Personal" />
+            <div className="blob"></div>
+        </div>
+    );
 }
 
 export default App;
