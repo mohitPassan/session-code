@@ -39,3 +39,10 @@ html {
     position: relative;
     z-index: 1;
 }
+
+.App .items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 5px;
+}
