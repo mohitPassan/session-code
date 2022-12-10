@@ -62,6 +62,7 @@
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
     "sass": "^1.56.2",
+    "storybook-addon-designs": "^6.3.1",
     "webpack": "^5.75.0"
   }
 }
